@@ -4,7 +4,7 @@ import sys
 import subprocess
 from colorama import init, Fore, Style
 
-# Initialize colorama for colored output
+
 init()
 
 # List of DNS servers to use
@@ -13,7 +13,7 @@ RESOLV_CONF = "/etc/resolv.conf"
 BACKUP_FILE = "/etc/resolv.conf.backup"
 
 def connect_dns():
-    """Set custom DNS servers by modifying /etc/resolv.conf"""
+    
     if not os.geteuid() == 0:
         print(f"{Fore.RED}Please run the program with root privileges (e.g., using sudo).{Style.RESET_ALL}")
         sys.exit(1)
