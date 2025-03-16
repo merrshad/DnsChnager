@@ -1,4 +1,4 @@
-# DnsChnager
+# Auto DNS Changer(Shecan.ir) 
 
 markdown
 # myDNS - A Simple DNS Switcher for Linux
