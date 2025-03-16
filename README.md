@@ -1,6 +1,6 @@
 # Auto DNS Changer(Shecan.ir) 
 
-markdown
+
 # myDNS - A Simple DNS Switcher for Linux
 
 `myDNS` is a lightweight Python script designed to quickly switch DNS servers on Linux systems. It allows you to set custom DNS servers with a single command and revert to the system's default settings when you're done. This tool is particularly useful for users who need to temporarily change DNS servers for testing, privacy, or bypassing restrictions.
