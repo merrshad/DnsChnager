@@ -27,7 +27,6 @@ def connect_dns():
             print(f"{Fore.RED}Error backing up {RESOLV_CONF}: {e}{Style.RESET_ALL}")
             sys.exit(1)
 
-    # Write new DNS servers to resolv.conf
     try:
         with open(RESOLV_CONF, "w") as f:
             for dns in DNS_SERVERS:
