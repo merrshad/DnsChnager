@@ -1,28 +1,9 @@
-# Auto DNS Changer(Shecan.ir) 
-
-
-# myDNS - A Simple DNS Switcher for Linux
-
-`myDNS` is a lightweight Python script designed to quickly switch DNS servers on Linux systems. It allows you to set custom DNS servers with a single command and revert to the system's default settings when you're done. This tool is particularly useful for users who need to temporarily change DNS servers for testing, privacy, or bypassing restrictions.
-
-## Features
-- Set custom DNS servers (e.g., `178.22.122.100`, `185.51.200.2`) with one command.
-- Revert to the original DNS settings or clear them easily.
-- Colorful terminal output for better readability using `colorama`.
-- Simple installation and usage via the command line.
-
-## Requirements
-- **Linux**: Tested on systems with or without `systemd-resolved`.
-- **Python 3**: Ensure Python 3.x is installed (`python3 --version`).
-- **colorama**: A Python library for colored terminal output (installed automatically during setup).
-- **Root Privileges**: Required to modify DNS settings (`sudo`).
 
 ## Installation
 
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/myDNS.git
-   cd myDNS
+   
+   
 
     Run the Install Script:
     bash
