@@ -1,5 +1,5 @@
 
-## Installation
+## Installation for Linux
 
 1. ابتدا فایل را کلون کنید
    
